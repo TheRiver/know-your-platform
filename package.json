@@ -8,7 +8,7 @@
     "test": "pnpm exec mocha"
   },
   "type": "module",
-  "keywords": [],
+  "keywords": ["useragent", "device", "desktop", "browser", "detect"],
   "author": "Constance Neeser",
   "license": "MIT",
   "devDependencies": {

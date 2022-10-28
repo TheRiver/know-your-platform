@@ -22,9 +22,20 @@ npm install know-your-platform
 
 import { getBrowser } from 'know-your-platform';
 
-const BROWSER_ID = getBrowser(navigator.userAgent);
+getBrowser(navigator.userAgent);
+// -> "<BROWSER_NAME>"
 
 ```
+
+### Methods
+* #getBrowser.
+
+  Takes a user agent string and returns a string name representing the browser. Possible return
+  values include: FIREFOX, CHROME, EDGE, SAFARI,
+  OTHER. 
+
+  This does not return browser version numbers. Browsers that it does not know about are returned as OTHER. Note that Internet Explorer
+  is returned as OTHER. 
 
 ## Running tests
 
