@@ -2,7 +2,8 @@
   "name": "know-your-platform",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "src/main.js",
+  "files": ["./src/*"],
   "scripts": {
     "test": "pnpm exec mocha"
   },
@@ -10,13 +11,6 @@
   "keywords": [],
   "author": "Constance Neeser",
   "license": "MIT",
-  "exports": {
-    ".": {
-      "import": {
-        "default": "./src/main.js"
-      }
-    }
-  },
   "devDependencies": {
     "chai": "^4.3.6",
     "mocha": "^10.1.0"
