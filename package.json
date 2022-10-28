@@ -11,6 +11,7 @@
   "keywords": ["useragent", "device", "desktop", "browser", "detect"],
   "author": "Constance Neeser",
   "license": "MIT",
+  "homepage": "https://github.com/TheRiver/know-your-platform",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/TheRiver/know-your-platform.git"
