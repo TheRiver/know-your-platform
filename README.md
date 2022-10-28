@@ -12,6 +12,16 @@ const BROWSER_ID = getBrowser(navigator.userAgent);
 
 ```
 
+## Running tests
+
+Tests can be run using 
+
+```bash
+
+pnpm test
+
+```
+
 
 ## License
 
