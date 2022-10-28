@@ -18,3 +18,4 @@ export function isSafari(user_agent) {
 export function isEdge(user_agent) {
     return user_agent.indexOf("Edg") > -1;
 }
+

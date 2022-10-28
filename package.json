@@ -9,5 +9,12 @@
   "type": "module",
   "keywords": [],
   "author": "Constance Neeser",
-  "license": "MIT"
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./src/main.js"
+      }
+    }
+  }
 }
