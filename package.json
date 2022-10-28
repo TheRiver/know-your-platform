@@ -1,6 +1,6 @@
 {
   "name": "know-your-platform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small, dependency free library for testing what browser your code is running in",
   "main": "src/main.js",
   "files": ["./src/*"],
@@ -12,6 +12,7 @@
   "author": "Constance Neeser",
   "license": "MIT",
   "homepage": "https://github.com/TheRiver/know-your-platform",
+  "bugs": "https://github.com/TheRiver/know-your-platform/issues",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/TheRiver/know-your-platform.git"
