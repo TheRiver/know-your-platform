@@ -4,7 +4,7 @@ This is a very simple library to enable you to test what browser your code is ru
 
 ## Using
 
-```{js}
+```js
 
 import { getBrowser } from 'know-your-platform';
 
