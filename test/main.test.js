@@ -12,7 +12,8 @@ describe("Can check various browser types", () => {
         "FIREFOX",
         "SAFARI",
         "CHROME",
-        "EDGE"
+        "EDGE",
+        "BOB"
     ];
 
     it("Handles Firefox", () => {
