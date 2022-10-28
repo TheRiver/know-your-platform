@@ -1,8 +1,10 @@
 # Know your Platform
 
+A small, dependency free library for testing what browser your code is running in.
+
 ![Test result](https://github.com/TheRiver/know-your-platform/actions/workflows/tests.yml/badge.svg)
 
-This is a very simple library to enable you to test what browser your code is running in. This is meant as a way to understand your userbase, and *NOT* as a way to write browser specific code. You should be using feature detection, polyfills, and @support queries if that is your use case. 
+This is small, dependency free library for testing what browser your code is running in. It is meant to be a simple tool for allowing you to understand what browsers people are using when visiting your website. It is *NOT* meant for writing browser specific code. You should be using feature detection, polyfills, and @support queries if that is your use case. 
 
 ## Installing
 
