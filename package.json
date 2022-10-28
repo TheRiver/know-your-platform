@@ -1,7 +1,7 @@
 {
   "name": "know-your-platform",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small, dependency free library for testing what browser your code is running in",
   "main": "src/main.js",
   "files": ["./src/*"],
   "scripts": {
@@ -11,6 +11,10 @@
   "keywords": ["useragent", "device", "desktop", "browser", "detect"],
   "author": "Constance Neeser",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/TheRiver/know-your-platform.git"
+  },
   "devDependencies": {
     "chai": "^4.3.6",
     "mocha": "^10.1.0"
